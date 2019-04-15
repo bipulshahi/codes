@@ -42,8 +42,8 @@ iris.target_names[knn.predict([[2.2,3,5,1.3],[2,4,7,0.4]])]
 #Calculate Accuracy
 #Comapring Real & Predicted Output
 #150- Training & Testing
-#from sklearn.model_selection import train_test_split
-#X_train,X_test,Y_train,Y_test=train_test_split(iris.data,iris.target)
+from sklearn.model_selection import train_test_split
+X_train,X_test,Y_train,Y_test=train_test_split(iris.data,iris.target)
 
 
 # In[26]:
